@@ -26,3 +26,4 @@ elif age < 65:
 elif age >=65:
     price = 5
 print('your cost is ' + str(price) + '.')
+print("scarlett use git")
