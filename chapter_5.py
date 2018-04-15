@@ -1,4 +1,4 @@
-# author='lwz'
+# author='scarlett'
 # coding:utf-8
 # if语句
 car = 'bmw'
@@ -26,3 +26,10 @@ elif age < 65:
 elif age >=65:
     price = 5
 print('your cost is ' + str(price) + '.')
+available_toppings = ['mushrooms', 'olives', 'peppers', 'cheese']
+requested_toppings = ['mushrooms', 'french fries', 'cheese']
+for requested_topping in requested_toppings:
+    if requested_topping in available_toppings:
+        print('adding ' + requested_topping + '.')
+    else:
+        print("sorry,we don't have " + requested_topping + '.')
